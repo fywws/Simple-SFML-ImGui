@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DEFECTS>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\kovma\source\repos\testh\testh\imgui\</FILEPATH>
+      <FILENAME>imgui-SFML.cpp</FILENAME>
+      <LINE>876</LINE>
+      <COLUMN>61</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>Арифметическое переполнение: использование оператора "+" на байтовом значении 4 и приведение результата к байтовому значению 8. Приведите значение к более широкому типу перед вызовом оператора "+", чтобы избежать переполнения (io.2).</DESCRIPTION>
+    <FUNCTION>`anonymous-namespace'::SetupRenderState</FUNCTION>
+    <DECORATED>?SetupRenderState@?A0x383484be@@YAXPEAUImDrawData@@HH@Z</DECORATED>
+    <FUNCLINE>841</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\kovma\source\repos\testh\testh\imgui\</FILEPATH>
+      <FILENAME>imgui-SFML.cpp</FILENAME>
+      <LINE>877</LINE>
+      <COLUMN>36</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>Арифметическое переполнение: использование оператора "+" на байтовом значении 4 и приведение результата к байтовому значению 8. Приведите значение к более широкому типу перед вызовом оператора "+", чтобы избежать переполнения (io.2).</DESCRIPTION>
+    <FUNCTION>`anonymous-namespace'::SetupRenderState</FUNCTION>
+    <DECORATED>?SetupRenderState@?A0x383484be@@YAXPEAUImDrawData@@HH@Z</DECORATED>
+    <FUNCLINE>841</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+</DEFECTS>

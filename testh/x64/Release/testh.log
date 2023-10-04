@@ -1,0 +1,151 @@
+﻿  imgui-SFML.cpp
+  imgui.cpp
+  imgui_draw.cpp
+  imgui_tables.cpp
+  imgui_widgets.cpp
+  testh.cpp
+sfml-graphics-s-d.lib(Texture.obj) : error LNK2038: обнаружено несоответствие для "_ITERATOR_DEBUG_LEVEL": значение "2" не соответствует значению "0" в imgui-SFML.obj
+sfml-graphics-s-d.lib(Texture.obj) : error LNK2038: обнаружено несоответствие для "RuntimeLibrary": значение "MDd_DynamicDebug" не соответствует значению "MD_DynamicRelease" в imgui-SFML.obj
+sfml-graphics-s-d.lib(RenderTarget.obj) : error LNK2038: обнаружено несоответствие для "_ITERATOR_DEBUG_LEVEL": значение "2" не соответствует значению "0" в imgui-SFML.obj
+sfml-graphics-s-d.lib(RenderTarget.obj) : error LNK2038: обнаружено несоответствие для "RuntimeLibrary": значение "MDd_DynamicDebug" не соответствует значению "MD_DynamicRelease" в imgui-SFML.obj
+sfml-graphics-s-d.lib(RenderTexture.obj) : error LNK2038: обнаружено несоответствие для "_ITERATOR_DEBUG_LEVEL": значение "2" не соответствует значению "0" в imgui-SFML.obj
+sfml-graphics-s-d.lib(RenderTexture.obj) : error LNK2038: обнаружено несоответствие для "RuntimeLibrary": значение "MDd_DynamicDebug" не соответствует значению "MD_DynamicRelease" в imgui-SFML.obj
+sfml-graphics-s-d.lib(Sprite.obj) : error LNK2038: обнаружено несоответствие для "_ITERATOR_DEBUG_LEVEL": значение "2" не соответствует значению "0" в imgui-SFML.obj
+sfml-graphics-s-d.lib(Sprite.obj) : error LNK2038: обнаружено несоответствие для "RuntimeLibrary": значение "MDd_DynamicDebug" не соответствует значению "MD_DynamicRelease" в imgui-SFML.obj
+sfml-graphics-s-d.lib(RenderStates.obj) : error LNK2038: обнаружено несоответствие для "_ITERATOR_DEBUG_LEVEL": значение "2" не соответствует значению "0" в imgui-SFML.obj
+sfml-graphics-s-d.lib(RenderStates.obj) : error LNK2038: обнаружено несоответствие для "RuntimeLibrary": значение "MDd_DynamicDebug" не соответствует значению "MD_DynamicRelease" в imgui-SFML.obj
+sfml-graphics-s-d.lib(CircleShape.obj) : error LNK2038: обнаружено несоответствие для "_ITERATOR_DEBUG_LEVEL": значение "2" не соответствует значению "0" в imgui-SFML.obj
+sfml-graphics-s-d.lib(CircleShape.obj) : error LNK2038: обнаружено несоответствие для "RuntimeLibrary": значение "MDd_DynamicDebug" не соответствует значению "MD_DynamicRelease" в imgui-SFML.obj
+sfml-graphics-s-d.lib(Transformable.obj) : error LNK2038: обнаружено несоответствие для "_ITERATOR_DEBUG_LEVEL": значение "2" не соответствует значению "0" в imgui-SFML.obj
+sfml-graphics-s-d.lib(Transformable.obj) : error LNK2038: обнаружено несоответствие для "RuntimeLibrary": значение "MDd_DynamicDebug" не соответствует значению "MD_DynamicRelease" в imgui-SFML.obj
+sfml-graphics-s-d.lib(RenderWindow.obj) : error LNK2038: обнаружено несоответствие для "_ITERATOR_DEBUG_LEVEL": значение "2" не соответствует значению "0" в imgui-SFML.obj
+sfml-graphics-s-d.lib(RenderWindow.obj) : error LNK2038: обнаружено несоответствие для "RuntimeLibrary": значение "MDd_DynamicDebug" не соответствует значению "MD_DynamicRelease" в imgui-SFML.obj
+sfml-graphics-s-d.lib(Color.obj) : error LNK2038: обнаружено несоответствие для "_ITERATOR_DEBUG_LEVEL": значение "2" не соответствует значению "0" в imgui-SFML.obj
+sfml-graphics-s-d.lib(Color.obj) : error LNK2038: обнаружено несоответствие для "RuntimeLibrary": значение "MDd_DynamicDebug" не соответствует значению "MD_DynamicRelease" в imgui-SFML.obj
+sfml-graphics-s-d.lib(Shape.obj) : error LNK2038: обнаружено несоответствие для "_ITERATOR_DEBUG_LEVEL": значение "2" не соответствует значению "0" в imgui-SFML.obj
+sfml-graphics-s-d.lib(Shape.obj) : error LNK2038: обнаружено несоответствие для "RuntimeLibrary": значение "MDd_DynamicDebug" не соответствует значению "MD_DynamicRelease" в imgui-SFML.obj
+sfml-graphics-s-d.lib(Image.obj) : error LNK2038: обнаружено несоответствие для "_ITERATOR_DEBUG_LEVEL": значение "2" не соответствует значению "0" в imgui-SFML.obj
+sfml-graphics-s-d.lib(Image.obj) : error LNK2038: обнаружено несоответствие для "RuntimeLibrary": значение "MDd_DynamicDebug" не соответствует значению "MD_DynamicRelease" в imgui-SFML.obj
+sfml-graphics-s-d.lib(GLExtensions.obj) : error LNK2038: обнаружено несоответствие для "_ITERATOR_DEBUG_LEVEL": значение "2" не соответствует значению "0" в imgui-SFML.obj
+sfml-graphics-s-d.lib(GLExtensions.obj) : error LNK2038: обнаружено несоответствие для "RuntimeLibrary": значение "MDd_DynamicDebug" не соответствует значению "MD_DynamicRelease" в imgui-SFML.obj
+sfml-graphics-s-d.lib(GLCheck.obj) : error LNK2038: обнаружено несоответствие для "_ITERATOR_DEBUG_LEVEL": значение "2" не соответствует значению "0" в imgui-SFML.obj
+sfml-graphics-s-d.lib(GLCheck.obj) : error LNK2038: обнаружено несоответствие для "RuntimeLibrary": значение "MDd_DynamicDebug" не соответствует значению "MD_DynamicRelease" в imgui-SFML.obj
+sfml-graphics-s-d.lib(Transform.obj) : error LNK2038: обнаружено несоответствие для "_ITERATOR_DEBUG_LEVEL": значение "2" не соответствует значению "0" в imgui-SFML.obj
+sfml-graphics-s-d.lib(Transform.obj) : error LNK2038: обнаружено несоответствие для "RuntimeLibrary": значение "MDd_DynamicDebug" не соответствует значению "MD_DynamicRelease" в imgui-SFML.obj
+sfml-graphics-s-d.lib(View.obj) : error LNK2038: обнаружено несоответствие для "_ITERATOR_DEBUG_LEVEL": значение "2" не соответствует значению "0" в imgui-SFML.obj
+sfml-graphics-s-d.lib(View.obj) : error LNK2038: обнаружено несоответствие для "RuntimeLibrary": значение "MDd_DynamicDebug" не соответствует значению "MD_DynamicRelease" в imgui-SFML.obj
+sfml-graphics-s-d.lib(Shader.obj) : error LNK2038: обнаружено несоответствие для "_ITERATOR_DEBUG_LEVEL": значение "2" не соответствует значению "0" в imgui-SFML.obj
+sfml-graphics-s-d.lib(Shader.obj) : error LNK2038: обнаружено несоответствие для "RuntimeLibrary": значение "MDd_DynamicDebug" не соответствует значению "MD_DynamicRelease" в imgui-SFML.obj
+sfml-graphics-s-d.lib(VertexBuffer.obj) : error LNK2038: обнаружено несоответствие для "_ITERATOR_DEBUG_LEVEL": значение "2" не соответствует значению "0" в imgui-SFML.obj
+sfml-graphics-s-d.lib(VertexBuffer.obj) : error LNK2038: обнаружено несоответствие для "RuntimeLibrary": значение "MDd_DynamicDebug" не соответствует значению "MD_DynamicRelease" в imgui-SFML.obj
+sfml-graphics-s-d.lib(RenderTextureImplFBO.obj) : error LNK2038: обнаружено несоответствие для "_ITERATOR_DEBUG_LEVEL": значение "2" не соответствует значению "0" в imgui-SFML.obj
+sfml-graphics-s-d.lib(RenderTextureImplFBO.obj) : error LNK2038: обнаружено несоответствие для "RuntimeLibrary": значение "MDd_DynamicDebug" не соответствует значению "MD_DynamicRelease" в imgui-SFML.obj
+sfml-graphics-s-d.lib(VertexArray.obj) : error LNK2038: обнаружено несоответствие для "_ITERATOR_DEBUG_LEVEL": значение "2" не соответствует значению "0" в imgui-SFML.obj
+sfml-graphics-s-d.lib(VertexArray.obj) : error LNK2038: обнаружено несоответствие для "RuntimeLibrary": значение "MDd_DynamicDebug" не соответствует значению "MD_DynamicRelease" в imgui-SFML.obj
+sfml-graphics-s-d.lib(ImageLoader.obj) : error LNK2038: обнаружено несоответствие для "_ITERATOR_DEBUG_LEVEL": значение "2" не соответствует значению "0" в imgui-SFML.obj
+sfml-graphics-s-d.lib(ImageLoader.obj) : error LNK2038: обнаружено несоответствие для "RuntimeLibrary": значение "MDd_DynamicDebug" не соответствует значению "MD_DynamicRelease" в imgui-SFML.obj
+sfml-graphics-s-d.lib(Glsl.obj) : error LNK2038: обнаружено несоответствие для "_ITERATOR_DEBUG_LEVEL": значение "2" не соответствует значению "0" в imgui-SFML.obj
+sfml-graphics-s-d.lib(Glsl.obj) : error LNK2038: обнаружено несоответствие для "RuntimeLibrary": значение "MDd_DynamicDebug" не соответствует значению "MD_DynamicRelease" в imgui-SFML.obj
+sfml-window-s-d.lib(Joystick.obj) : error LNK2038: обнаружено несоответствие для "_ITERATOR_DEBUG_LEVEL": значение "2" не соответствует значению "0" в imgui-SFML.obj
+sfml-window-s-d.lib(Joystick.obj) : error LNK2038: обнаружено несоответствие для "RuntimeLibrary": значение "MDd_DynamicDebug" не соответствует значению "MD_DynamicRelease" в imgui-SFML.obj
+sfml-window-s-d.lib(WindowBase.obj) : error LNK2038: обнаружено несоответствие для "_ITERATOR_DEBUG_LEVEL": значение "2" не соответствует значению "0" в imgui-SFML.obj
+sfml-window-s-d.lib(WindowBase.obj) : error LNK2038: обнаружено несоответствие для "RuntimeLibrary": значение "MDd_DynamicDebug" не соответствует значению "MD_DynamicRelease" в imgui-SFML.obj
+sfml-window-s-d.lib(Clipboard.obj) : error LNK2038: обнаружено несоответствие для "_ITERATOR_DEBUG_LEVEL": значение "2" не соответствует значению "0" в imgui-SFML.obj
+sfml-window-s-d.lib(Clipboard.obj) : error LNK2038: обнаружено несоответствие для "RuntimeLibrary": значение "MDd_DynamicDebug" не соответствует значению "MD_DynamicRelease" в imgui-SFML.obj
+sfml-window-s-d.lib(Mouse.obj) : error LNK2038: обнаружено несоответствие для "_ITERATOR_DEBUG_LEVEL": значение "2" не соответствует значению "0" в imgui-SFML.obj
+sfml-window-s-d.lib(Mouse.obj) : error LNK2038: обнаружено несоответствие для "RuntimeLibrary": значение "MDd_DynamicDebug" не соответствует значению "MD_DynamicRelease" в imgui-SFML.obj
+sfml-window-s-d.lib(Window.obj) : error LNK2038: обнаружено несоответствие для "_ITERATOR_DEBUG_LEVEL": значение "2" не соответствует значению "0" в imgui-SFML.obj
+sfml-window-s-d.lib(Window.obj) : error LNK2038: обнаружено несоответствие для "RuntimeLibrary": значение "MDd_DynamicDebug" не соответствует значению "MD_DynamicRelease" в imgui-SFML.obj
+sfml-window-s-d.lib(VideoMode.obj) : error LNK2038: обнаружено несоответствие для "_ITERATOR_DEBUG_LEVEL": значение "2" не соответствует значению "0" в imgui-SFML.obj
+sfml-window-s-d.lib(VideoMode.obj) : error LNK2038: обнаружено несоответствие для "RuntimeLibrary": значение "MDd_DynamicDebug" не соответствует значению "MD_DynamicRelease" в imgui-SFML.obj
+sfml-window-s-d.lib(JoystickManager.obj) : error LNK2038: обнаружено несоответствие для "_ITERATOR_DEBUG_LEVEL": значение "2" не соответствует значению "0" в imgui-SFML.obj
+sfml-window-s-d.lib(JoystickManager.obj) : error LNK2038: обнаружено несоответствие для "RuntimeLibrary": значение "MDd_DynamicDebug" не соответствует значению "MD_DynamicRelease" в imgui-SFML.obj
+sfml-window-s-d.lib(CursorImpl.obj) : error LNK2038: обнаружено несоответствие для "_ITERATOR_DEBUG_LEVEL": значение "2" не соответствует значению "0" в imgui-SFML.obj
+sfml-window-s-d.lib(CursorImpl.obj) : error LNK2038: обнаружено несоответствие для "RuntimeLibrary": значение "MDd_DynamicDebug" не соответствует значению "MD_DynamicRelease" в imgui-SFML.obj
+sfml-window-s-d.lib(WindowImpl.obj) : error LNK2038: обнаружено несоответствие для "_ITERATOR_DEBUG_LEVEL": значение "2" не соответствует значению "0" в imgui-SFML.obj
+sfml-window-s-d.lib(WindowImpl.obj) : error LNK2038: обнаружено несоответствие для "RuntimeLibrary": значение "MDd_DynamicDebug" не соответствует значению "MD_DynamicRelease" в imgui-SFML.obj
+sfml-window-s-d.lib(ClipboardImpl.obj) : error LNK2038: обнаружено несоответствие для "_ITERATOR_DEBUG_LEVEL": значение "2" не соответствует значению "0" в imgui-SFML.obj
+sfml-window-s-d.lib(ClipboardImpl.obj) : error LNK2038: обнаружено несоответствие для "RuntimeLibrary": значение "MDd_DynamicDebug" не соответствует значению "MD_DynamicRelease" в imgui-SFML.obj
+sfml-window-s-d.lib(InputImpl.obj) : error LNK2038: обнаружено несоответствие для "_ITERATOR_DEBUG_LEVEL": значение "2" не соответствует значению "0" в imgui-SFML.obj
+sfml-window-s-d.lib(InputImpl.obj) : error LNK2038: обнаружено несоответствие для "RuntimeLibrary": значение "MDd_DynamicDebug" не соответствует значению "MD_DynamicRelease" в imgui-SFML.obj
+sfml-window-s-d.lib(GlContext.obj) : error LNK2038: обнаружено несоответствие для "_ITERATOR_DEBUG_LEVEL": значение "2" не соответствует значению "0" в imgui-SFML.obj
+sfml-window-s-d.lib(GlContext.obj) : error LNK2038: обнаружено несоответствие для "RuntimeLibrary": значение "MDd_DynamicDebug" не соответствует значению "MD_DynamicRelease" в imgui-SFML.obj
+sfml-window-s-d.lib(VideoModeImpl.obj) : error LNK2038: обнаружено несоответствие для "_ITERATOR_DEBUG_LEVEL": значение "2" не соответствует значению "0" в imgui-SFML.obj
+sfml-window-s-d.lib(VideoModeImpl.obj) : error LNK2038: обнаружено несоответствие для "RuntimeLibrary": значение "MDd_DynamicDebug" не соответствует значению "MD_DynamicRelease" в imgui-SFML.obj
+sfml-window-s-d.lib(JoystickImpl.obj) : error LNK2038: обнаружено несоответствие для "_ITERATOR_DEBUG_LEVEL": значение "2" не соответствует значению "0" в imgui-SFML.obj
+sfml-window-s-d.lib(JoystickImpl.obj) : error LNK2038: обнаружено несоответствие для "RuntimeLibrary": значение "MDd_DynamicDebug" не соответствует значению "MD_DynamicRelease" в imgui-SFML.obj
+sfml-window-s-d.lib(SensorManager.obj) : error LNK2038: обнаружено несоответствие для "_ITERATOR_DEBUG_LEVEL": значение "2" не соответствует значению "0" в imgui-SFML.obj
+sfml-window-s-d.lib(SensorManager.obj) : error LNK2038: обнаружено несоответствие для "RuntimeLibrary": значение "MDd_DynamicDebug" не соответствует значению "MD_DynamicRelease" в imgui-SFML.obj
+sfml-window-s-d.lib(WindowImplWin32.obj) : error LNK2038: обнаружено несоответствие для "_ITERATOR_DEBUG_LEVEL": значение "2" не соответствует значению "0" в imgui-SFML.obj
+sfml-window-s-d.lib(WindowImplWin32.obj) : error LNK2038: обнаружено несоответствие для "RuntimeLibrary": значение "MDd_DynamicDebug" не соответствует значению "MD_DynamicRelease" в imgui-SFML.obj
+sfml-window-s-d.lib(VulkanImplWin32.obj) : error LNK2038: обнаружено несоответствие для "_ITERATOR_DEBUG_LEVEL": значение "2" не соответствует значению "0" в imgui-SFML.obj
+sfml-window-s-d.lib(VulkanImplWin32.obj) : error LNK2038: обнаружено несоответствие для "RuntimeLibrary": значение "MDd_DynamicDebug" не соответствует значению "MD_DynamicRelease" в imgui-SFML.obj
+sfml-window-s-d.lib(WglContext.obj) : error LNK2038: обнаружено несоответствие для "_ITERATOR_DEBUG_LEVEL": значение "2" не соответствует значению "0" в imgui-SFML.obj
+sfml-window-s-d.lib(WglContext.obj) : error LNK2038: обнаружено несоответствие для "RuntimeLibrary": значение "MDd_DynamicDebug" не соответствует значению "MD_DynamicRelease" в imgui-SFML.obj
+sfml-system-s-d.lib(String.obj) : error LNK2038: обнаружено несоответствие для "_ITERATOR_DEBUG_LEVEL": значение "2" не соответствует значению "0" в imgui-SFML.obj
+sfml-system-s-d.lib(String.obj) : error LNK2038: обнаружено несоответствие для "RuntimeLibrary": значение "MDd_DynamicDebug" не соответствует значению "MD_DynamicRelease" в imgui-SFML.obj
+sfml-system-s-d.lib(Err.obj) : error LNK2038: обнаружено несоответствие для "_ITERATOR_DEBUG_LEVEL": значение "2" не соответствует значению "0" в imgui-SFML.obj
+sfml-system-s-d.lib(Err.obj) : error LNK2038: обнаружено несоответствие для "RuntimeLibrary": значение "MDd_DynamicDebug" не соответствует значению "MD_DynamicRelease" в imgui-SFML.obj
+LINK : warning LNK4098: библиотека по умолчанию "MSVCRTD" конфликтует с использованием других библиотек; используйте /NODEFAULTLIB:library
+sfml-window-s-d.lib(VulkanImplWin32.obj) : error LNK2001: неразрешенный внешний символ __imp__invalid_parameter.
+sfml-window-s-d.lib(WglContext.obj) : error LNK2001: неразрешенный внешний символ __imp__invalid_parameter.
+sfml-system-s-d.lib(String.obj) : error LNK2001: неразрешенный внешний символ __imp__invalid_parameter.
+sfml-window-s-d.lib(GlContext.obj) : error LNK2001: неразрешенный внешний символ __imp__invalid_parameter.
+sfml-window-s-d.lib(VideoModeImpl.obj) : error LNK2001: неразрешенный внешний символ __imp__invalid_parameter.
+sfml-window-s-d.lib(JoystickImpl.obj) : error LNK2001: неразрешенный внешний символ __imp__invalid_parameter.
+sfml-window-s-d.lib(WindowImplWin32.obj) : error LNK2001: неразрешенный внешний символ __imp__invalid_parameter.
+sfml-window-s-d.lib(VideoMode.obj) : error LNK2001: неразрешенный внешний символ __imp__invalid_parameter.
+sfml-window-s-d.lib(JoystickManager.obj) : error LNK2001: неразрешенный внешний символ __imp__invalid_parameter.
+sfml-window-s-d.lib(WindowImpl.obj) : error LNK2001: неразрешенный внешний символ __imp__invalid_parameter.
+sfml-window-s-d.lib(ClipboardImpl.obj) : error LNK2001: неразрешенный внешний символ __imp__invalid_parameter.
+sfml-graphics-s-d.lib(ImageLoader.obj) : error LNK2001: неразрешенный внешний символ __imp__invalid_parameter.
+sfml-graphics-s-d.lib(Glsl.obj) : error LNK2001: неразрешенный внешний символ __imp__invalid_parameter.
+sfml-window-s-d.lib(WindowBase.obj) : error LNK2001: неразрешенный внешний символ __imp__invalid_parameter.
+sfml-window-s-d.lib(Window.obj) : error LNK2001: неразрешенный внешний символ __imp__invalid_parameter.
+sfml-graphics-s-d.lib(GLCheck.obj) : error LNK2001: неразрешенный внешний символ __imp__invalid_parameter.
+sfml-graphics-s-d.lib(Shader.obj) : error LNK2001: неразрешенный внешний символ __imp__invalid_parameter.
+sfml-graphics-s-d.lib(RenderTextureImplFBO.obj) : error LNK2001: неразрешенный внешний символ __imp__invalid_parameter.
+sfml-graphics-s-d.lib(VertexArray.obj) : error LNK2001: неразрешенный внешний символ __imp__invalid_parameter.
+sfml-graphics-s-d.lib(Texture.obj) : error LNK2001: неразрешенный внешний символ __imp__invalid_parameter.
+sfml-graphics-s-d.lib(RenderTarget.obj) : error LNK2001: неразрешенный внешний символ __imp__invalid_parameter.
+sfml-graphics-s-d.lib(Shape.obj) : error LNK2001: неразрешенный внешний символ __imp__invalid_parameter.
+sfml-graphics-s-d.lib(Image.obj) : error LNK2001: неразрешенный внешний символ __imp__invalid_parameter.
+sfml-window-s-d.lib(WindowImplWin32.obj) : error LNK2001: неразрешенный внешний символ __imp__calloc_dbg.
+sfml-window-s-d.lib(WglContext.obj) : error LNK2001: неразрешенный внешний символ __imp__calloc_dbg.
+sfml-system-s-d.lib(String.obj) : error LNK2001: неразрешенный внешний символ __imp__calloc_dbg.
+sfml-window-s-d.lib(WindowImpl.obj) : error LNK2001: неразрешенный внешний символ __imp__calloc_dbg.
+sfml-window-s-d.lib(ClipboardImpl.obj) : error LNK2001: неразрешенный внешний символ __imp__calloc_dbg.
+sfml-window-s-d.lib(InputImpl.obj) : error LNK2001: неразрешенный внешний символ __imp__calloc_dbg.
+sfml-window-s-d.lib(JoystickImpl.obj) : error LNK2001: неразрешенный внешний символ __imp__calloc_dbg.
+sfml-window-s-d.lib(Clipboard.obj) : error LNK2001: неразрешенный внешний символ __imp__calloc_dbg.
+sfml-window-s-d.lib(Mouse.obj) : error LNK2001: неразрешенный внешний символ __imp__calloc_dbg.
+sfml-window-s-d.lib(Window.obj) : error LNK2001: неразрешенный внешний символ __imp__calloc_dbg.
+sfml-window-s-d.lib(JoystickManager.obj) : error LNK2001: неразрешенный внешний символ __imp__calloc_dbg.
+sfml-graphics-s-d.lib(Texture.obj) : error LNK2001: неразрешенный внешний символ __imp__calloc_dbg.
+sfml-graphics-s-d.lib(RenderWindow.obj) : error LNK2001: неразрешенный внешний символ __imp__calloc_dbg.
+sfml-window-s-d.lib(Joystick.obj) : error LNK2001: неразрешенный внешний символ __imp__calloc_dbg.
+sfml-window-s-d.lib(WindowBase.obj) : error LNK2001: неразрешенный внешний символ __imp__calloc_dbg.
+sfml-window-s-d.lib(VulkanImplWin32.obj) : error LNK2001: неразрешенный внешний символ __imp__CrtDbgReport.
+sfml-window-s-d.lib(WglContext.obj) : error LNK2001: неразрешенный внешний символ __imp__CrtDbgReport.
+sfml-system-s-d.lib(String.obj) : error LNK2001: неразрешенный внешний символ __imp__CrtDbgReport.
+sfml-window-s-d.lib(GlContext.obj) : error LNK2001: неразрешенный внешний символ __imp__CrtDbgReport.
+sfml-window-s-d.lib(VideoModeImpl.obj) : error LNK2001: неразрешенный внешний символ __imp__CrtDbgReport.
+sfml-window-s-d.lib(JoystickImpl.obj) : error LNK2001: неразрешенный внешний символ __imp__CrtDbgReport.
+sfml-window-s-d.lib(WindowImplWin32.obj) : error LNK2001: неразрешенный внешний символ __imp__CrtDbgReport.
+sfml-window-s-d.lib(VideoMode.obj) : error LNK2001: неразрешенный внешний символ __imp__CrtDbgReport.
+sfml-window-s-d.lib(JoystickManager.obj) : error LNK2001: неразрешенный внешний символ __imp__CrtDbgReport.
+sfml-window-s-d.lib(WindowImpl.obj) : error LNK2001: неразрешенный внешний символ __imp__CrtDbgReport.
+sfml-window-s-d.lib(ClipboardImpl.obj) : error LNK2001: неразрешенный внешний символ __imp__CrtDbgReport.
+sfml-graphics-s-d.lib(ImageLoader.obj) : error LNK2001: неразрешенный внешний символ __imp__CrtDbgReport.
+sfml-graphics-s-d.lib(Glsl.obj) : error LNK2001: неразрешенный внешний символ __imp__CrtDbgReport.
+sfml-window-s-d.lib(WindowBase.obj) : error LNK2001: неразрешенный внешний символ __imp__CrtDbgReport.
+sfml-window-s-d.lib(Window.obj) : error LNK2001: неразрешенный внешний символ __imp__CrtDbgReport.
+sfml-graphics-s-d.lib(GLCheck.obj) : error LNK2001: неразрешенный внешний символ __imp__CrtDbgReport.
+sfml-graphics-s-d.lib(Shader.obj) : error LNK2001: неразрешенный внешний символ __imp__CrtDbgReport.
+sfml-graphics-s-d.lib(RenderTextureImplFBO.obj) : error LNK2001: неразрешенный внешний символ __imp__CrtDbgReport.
+sfml-graphics-s-d.lib(VertexArray.obj) : error LNK2001: неразрешенный внешний символ __imp__CrtDbgReport.
+sfml-graphics-s-d.lib(Texture.obj) : error LNK2001: неразрешенный внешний символ __imp__CrtDbgReport.
+sfml-graphics-s-d.lib(RenderTarget.obj) : error LNK2001: неразрешенный внешний символ __imp__CrtDbgReport.
+sfml-graphics-s-d.lib(Shape.obj) : error LNK2001: неразрешенный внешний символ __imp__CrtDbgReport.
+sfml-graphics-s-d.lib(Image.obj) : error LNK2001: неразрешенный внешний символ __imp__CrtDbgReport.
+C:\Users\kovma\source\repos\testh\x64\Release\testh.exe : fatal error LNK1120: неразрешенных внешних элементов: 3

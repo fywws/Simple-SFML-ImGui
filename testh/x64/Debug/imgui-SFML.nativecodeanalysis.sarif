@@ -1,0 +1,525 @@
+{
+  "version": "2.1.0",
+  "$schema": "https://schemastore.azurewebsites.net/schemas/json/sarif-2.1.0-rtm.5.json",
+  "runs": [
+    {
+      "results": [
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "Арифметическое переполнение: использование оператора \"+\" на байтовом значении 4 и приведение результата к байтовому значению 8. Приведите значение к более широкому типу перед вызовом оператора \"+\", чтобы избежать переполнения (io.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/kovma/source/repos/testh/testh/imgui/imgui-SFML.cpp"
+                },
+                "region": {
+                  "startLine": 876,
+                  "startColumn": 38,
+                  "endLine": 876,
+                  "endColumn": 86
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "`anonymous-namespace'::SetupRenderState",
+                  "decoratedName": "?SetupRenderState@?A0x383484be@@YAXPEAUImDrawData@@HH@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "Арифметическое переполнение: использование оператора \"+\" на байтовом значении 4 и приведение результата к байтовому значению 8. Приведите значение к более широкому типу перед вызовом оператора \"+\", чтобы избежать переполнения (io.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/kovma/source/repos/testh/testh/imgui/imgui-SFML.cpp"
+                },
+                "region": {
+                  "startLine": 877,
+                  "startColumn": 13,
+                  "endLine": 877,
+                  "endColumn": 61
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "`anonymous-namespace'::SetupRenderState",
+                  "decoratedName": "?SetupRenderState@?A0x383484be@@YAXPEAUImDrawData@@HH@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "tool": {
+        "driver": {
+          "name": "PREfast",
+          "fullName": "PREfast Code Analysis",
+          "version": "14.37.32824.0",
+          "informationUri": "https://aka.ms/cpp/ca"
+        }
+      },
+      "invocations": [
+        {
+          "executionSuccessful": true
+        }
+      ],
+      "artifacts": [
+        {
+          "location": {
+            "uri": "file:///C:/Users/kovma/source/repos/testh/testh/imgui/imgui-SFML.cpp"
+          },
+          "roles": [
+            "analysisTarget",
+            "resultFile"
+          ],
+          "hashes": {
+            "sha-256": "2836d1137b1f49d81668c662f8ae24fafaf972559bf46239d43d922b26e5dbed"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/kovma/source/repos/testh/testh/imgui/imgui-sfml.h"
+          },
+          "hashes": {
+            "sha-256": "bdf2872ea588bdae171238cdf7d10620e108309062f9ddf7f892070b4a80df43"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/kovma/downloads/sfml-2.6.0/include/sfml/graphics/color.hpp"
+          },
+          "hashes": {
+            "sha-256": "67dd0d6c7948848cf371b542bff7d32f882dbfa055ffd14635441c2d1587bc3f"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/kovma/downloads/sfml-2.6.0/include/sfml/graphics/export.hpp"
+          },
+          "hashes": {
+            "sha-256": "e83796cd71dda9f8a86ab538350dc5cb92550537b180a4d6a972cbf96d75033e"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/kovma/downloads/sfml-2.6.0/include/sfml/config.hpp"
+          },
+          "hashes": {
+            "sha-256": "e412351b94026c43b3a3953661ee3533099c9faf8c6b1cfc090da96a286459eb"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/kovma/downloads/sfml-2.6.0/include/sfml/graphics/rect.hpp"
+          },
+          "hashes": {
+            "sha-256": "14da874c46ae2ffb97b367eee5b044ffd28f5f220304855a7bf50d70837c81d4"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/kovma/downloads/sfml-2.6.0/include/sfml/system/vector2.hpp"
+          },
+          "hashes": {
+            "sha-256": "3271f8eaac3f1d262878fbb14cdd4dbeb1cd329b80577515513f4f7c45c05fb2"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/kovma/downloads/sfml-2.6.0/include/sfml/system/vector2.inl"
+          },
+          "hashes": {
+            "sha-256": "70d8e5ca6dc3aa99b92533bc231e3d556c953b4fba2c0ae064b5b8454ff838d9"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/kovma/downloads/sfml-2.6.0/include/sfml/graphics/rect.inl"
+          },
+          "hashes": {
+            "sha-256": "44e4087b4adb38db3b9cce03138c3614f38cf38ae9e1fe9a7dfb89d277f948cb"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/kovma/downloads/sfml-2.6.0/include/sfml/system/time.hpp"
+          },
+          "hashes": {
+            "sha-256": "b3705be72704b27b90ced1425d8555a1088ee51ba017d1588a7d57099d2953e6"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/kovma/downloads/sfml-2.6.0/include/sfml/system/export.hpp"
+          },
+          "hashes": {
+            "sha-256": "ae00bbdb837d29dca4d82d897fd57300e7542b19ac7d94b33e842aad64c5e07a"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/kovma/downloads/sfml-2.6.0/include/sfml/window/joystick.hpp"
+          },
+          "hashes": {
+            "sha-256": "279ccdebf62993376575ecba9b8d7475cd8b0b4d9b5cf19a12f062a27a0f7c06"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/kovma/downloads/sfml-2.6.0/include/sfml/window/export.hpp"
+          },
+          "hashes": {
+            "sha-256": "997ad366b5a6cc230839a9cfc3aa6a3c6dccb9df4e38a7eccc26a0924f1f92b8"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/kovma/downloads/sfml-2.6.0/include/sfml/system/string.hpp"
+          },
+          "hashes": {
+            "sha-256": "5ef3415df60dafd46ddfa5ba57a0b6d7331a643986b6875761d9846437dca2c9"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/kovma/downloads/sfml-2.6.0/include/sfml/system/utf.hpp"
+          },
+          "hashes": {
+            "sha-256": "63c11bca4545fd490b2788421623ac87c1cda76d2f40726e495efce89db4332d"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/kovma/downloads/sfml-2.6.0/include/sfml/system/utf.inl"
+          },
+          "hashes": {
+            "sha-256": "577ed3b6eea533f1d2fd767cf8b52ca49f9fd04b2f4e2c10123789011f4dd7e5"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/kovma/downloads/sfml-2.6.0/include/sfml/system/string.inl"
+          },
+          "hashes": {
+            "sha-256": "7c1349a61ced7e8bf3d1ed5cd8583709e93d6277608f5f8f3a602a291d02d836"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/kovma/source/repos/testh/testh/imgui/imgui-sfml_export.h"
+          },
+          "hashes": {
+            "sha-256": "031880fcd756539d86fca79ba1d9bbbe37b1086b57ca673de27e4bc22520d1ed"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/kovma/source/repos/testh/testh/imgui/imgui.h"
+          },
+          "hashes": {
+            "sha-256": "8fc44703e99984dc57eacd318d7eb780c014a7086df427883ce9933e3da7bf51"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/kovma/source/repos/testh/testh/imgui/imconfig.h"
+          },
+          "hashes": {
+            "sha-256": "a51e5dd1afba7e4ac0e42fe614cfda7abd584825bd68541a5caa17cac5d95cc2"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/kovma/source/repos/testh/testh/imgui/imconfig-sfml.h"
+          },
+          "hashes": {
+            "sha-256": "bba99f156ae5829780fcff1a05cbfe730c6d8ee1378b98a8e9ba4dae59ae4fe7"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/kovma/downloads/sfml-2.6.0/include/sfml/graphics/rendertarget.hpp"
+          },
+          "hashes": {
+            "sha-256": "b218d0527e5bf87c0fbb257583ceb78958f0b8708c6a59730c933db9554af83a"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/kovma/downloads/sfml-2.6.0/include/sfml/graphics/view.hpp"
+          },
+          "hashes": {
+            "sha-256": "cdf16bd4d387c00890b91c88a8201e22827c247eac1c6b68e175d4f6258db9b1"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/kovma/downloads/sfml-2.6.0/include/sfml/graphics/transform.hpp"
+          },
+          "hashes": {
+            "sha-256": "49def6ed9e5f6b831d6aab3a9c3d1fd5e6a5408166177855af0fac9dcc3c4507"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/kovma/downloads/sfml-2.6.0/include/sfml/graphics/blendmode.hpp"
+          },
+          "hashes": {
+            "sha-256": "75f234bafdfec276b47f7da78261d65589d02a31f6ce0ddf6b844d6dc42f2cf2"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/kovma/downloads/sfml-2.6.0/include/sfml/graphics/renderstates.hpp"
+          },
+          "hashes": {
+            "sha-256": "3d46c253c04e0726dd8782011f89486c8637b30f6dc564d3064408e2168055e5"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/kovma/downloads/sfml-2.6.0/include/sfml/graphics/primitivetype.hpp"
+          },
+          "hashes": {
+            "sha-256": "9f036a2cfa194645cb51e7752ed324d749fa3c5254b096c1a51981b0d142fe05"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/kovma/downloads/sfml-2.6.0/include/sfml/graphics/vertex.hpp"
+          },
+          "hashes": {
+            "sha-256": "9311ff50c28dadcd88567ee73233fee8d6f903c007ae692f79d18c2031ccee77"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/kovma/downloads/sfml-2.6.0/include/sfml/system/noncopyable.hpp"
+          },
+          "hashes": {
+            "sha-256": "d08bbf1f7018134c2784bc95e133f68d0646d3bce194046bb0db9e02c97b357c"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/kovma/downloads/sfml-2.6.0/include/sfml/graphics/rendertexture.hpp"
+          },
+          "hashes": {
+            "sha-256": "76e52bdb3ed2604b96e34d2bd288cd846ee111c8da8bf071572b1cbf21cf24bf"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/kovma/downloads/sfml-2.6.0/include/sfml/graphics/texture.hpp"
+          },
+          "hashes": {
+            "sha-256": "6e3c70021acf741dffdf168a3396a98e2a24faa602e6eeadfc97813857ecbccf"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/kovma/downloads/sfml-2.6.0/include/sfml/graphics/image.hpp"
+          },
+          "hashes": {
+            "sha-256": "e10d8694fc7a2061f1749400bf6f4d753fdfbb2863d4c2ec760eeb232a4430f7"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/kovma/downloads/sfml-2.6.0/include/sfml/window/glresource.hpp"
+          },
+          "hashes": {
+            "sha-256": "435ab868713d09b67db6da23064c29ae5727181161ad27402b93ac5408d82f39"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/kovma/downloads/sfml-2.6.0/include/sfml/window/contextsettings.hpp"
+          },
+          "hashes": {
+            "sha-256": "82a21bdd5e7d549c4c6450f5757ae829bf004eb4ee1cbb50288ed0d35d1cf1ec"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/kovma/downloads/sfml-2.6.0/include/sfml/graphics/renderwindow.hpp"
+          },
+          "hashes": {
+            "sha-256": "91fa0f87b6fdd191ec487494f9c4478c386a1345fbb5e65b491ab3e0d99e5197"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/kovma/downloads/sfml-2.6.0/include/sfml/window/window.hpp"
+          },
+          "hashes": {
+            "sha-256": "5be09caed9f4a112626dc8cf38bd3e50efc32d294deb6bfae53d9cdc54e25b67"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/kovma/downloads/sfml-2.6.0/include/sfml/window/windowbase.hpp"
+          },
+          "hashes": {
+            "sha-256": "55fb0dfc3e3c6317c6ae03af8940a0d05af70e74734db71186d94e0972d359fb"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/kovma/downloads/sfml-2.6.0/include/sfml/window/cursor.hpp"
+          },
+          "hashes": {
+            "sha-256": "816c93682afab8faef09339ebb46c24030e9f649771cfcb6070fb4f331203471"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/kovma/downloads/sfml-2.6.0/include/sfml/window/videomode.hpp"
+          },
+          "hashes": {
+            "sha-256": "b6e3498a8293cbfdee3d26062a463d21b90b635d0bd55763760ba7f9e3da15cf"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/kovma/downloads/sfml-2.6.0/include/sfml/window/vulkan.hpp"
+          },
+          "hashes": {
+            "sha-256": "10050b1f484dc4962523ac614883ed00863a18d98cdeb096bbf465d318389fa2"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/kovma/downloads/sfml-2.6.0/include/sfml/window/windowhandle.hpp"
+          },
+          "hashes": {
+            "sha-256": "71221fd76c9a7fd0eee2eb8c1030ef725b1f9bdb9c4960982ee671d137790701"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/kovma/downloads/sfml-2.6.0/include/sfml/window/windowstyle.hpp"
+          },
+          "hashes": {
+            "sha-256": "1ebb3b7e8d4570238826dafde15da8ddc4a282db644c9c1d06e6be35cca460ab"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/kovma/downloads/sfml-2.6.0/include/sfml/system/clock.hpp"
+          },
+          "hashes": {
+            "sha-256": "abc79599d3723af2fd8c60023fe066fa2bbd3263bf801b0fb5f2b345c3adb4e1"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/kovma/downloads/sfml-2.6.0/include/sfml/graphics/sprite.hpp"
+          },
+          "hashes": {
+            "sha-256": "441256c062dffe707f05cfb32fb098d9f00955816c10e5fd7b75e044bd967bec"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/kovma/downloads/sfml-2.6.0/include/sfml/graphics/drawable.hpp"
+          },
+          "hashes": {
+            "sha-256": "bff6082e49cc7018f3818193166d8c488e5dcd61cce1ac78432375b6edc3af91"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/kovma/downloads/sfml-2.6.0/include/sfml/graphics/transformable.hpp"
+          },
+          "hashes": {
+            "sha-256": "9579b222e2f54c567d6718c10ddcda61c0bce4fbfcb1ae80df91cc026ee7d787"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/kovma/downloads/sfml-2.6.0/include/sfml/opengl.hpp"
+          },
+          "hashes": {
+            "sha-256": "e56a9cbb481d9348ded3a2fbdbb0138fcd59bd137b399a26c88ddeb99db4de22"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/kovma/downloads/sfml-2.6.0/include/sfml/window/clipboard.hpp"
+          },
+          "hashes": {
+            "sha-256": "5f9e63354233d6333b2b60ae1ed6f582cd29b7f2623c4b05ccb0fc2e9f93eb20"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/kovma/downloads/sfml-2.6.0/include/sfml/window/event.hpp"
+          },
+          "hashes": {
+            "sha-256": "58403363c6b4b5dd3fe311faf724615eb3522cbb2eeff9ee0c777a159d117e25"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/kovma/downloads/sfml-2.6.0/include/sfml/window/keyboard.hpp"
+          },
+          "hashes": {
+            "sha-256": "f31958d337b37b5abfb10974b96c026ecc87878ffdb70a9ff58b3282d0009718"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/kovma/downloads/sfml-2.6.0/include/sfml/window/mouse.hpp"
+          },
+          "hashes": {
+            "sha-256": "335614237fa450e2b37172cc0eb23a2b934b36bc8f0030605316de86c567c48c"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/kovma/downloads/sfml-2.6.0/include/sfml/window/sensor.hpp"
+          },
+          "hashes": {
+            "sha-256": "fc5f7cb31e6c0b8433de6ab75eb4099e01bc5e3d7821f55e7a41b538da18547c"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/kovma/downloads/sfml-2.6.0/include/sfml/system/vector3.hpp"
+          },
+          "hashes": {
+            "sha-256": "1d12bd3444004080569b91293923848c8ce8feb8f31cf16f81ba9067cff023de"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/kovma/downloads/sfml-2.6.0/include/sfml/system/vector3.inl"
+          },
+          "hashes": {
+            "sha-256": "7b9be1d5967cce700b29d1a61905e2493a1b3b126bf7b8c7f88c5391059bc052"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/kovma/downloads/sfml-2.6.0/include/sfml/window/touch.hpp"
+          },
+          "hashes": {
+            "sha-256": "432e3b73186f9dde01f3e8fedef81f07b5c662c3569cfc36aa1a4e4173b05561"
+          }
+        }
+      ]
+    }
+  ]
+}
