@@ -1,10 +1,4 @@
-﻿  imgui-SFML.cpp
-  imgui.cpp
-  imgui_draw.cpp
-  imgui_tables.cpp
-  imgui_widgets.cpp
-  testh.cpp
-  Generating Code...
+﻿  testh.cpp
 sfml-graphics-s-d.lib(RenderTarget.obj) : warning LNK4099: PDB '' was not found with 'sfml-graphics-s-d.lib(RenderTarget.obj)' or at ''; linking object as if no debug info
 sfml-graphics-s-d.lib(Texture.obj) : warning LNK4099: PDB '' was not found with 'sfml-graphics-s-d.lib(Texture.obj)' or at ''; linking object as if no debug info
 sfml-graphics-s-d.lib(RenderTexture.obj) : warning LNK4099: PDB '' was not found with 'sfml-graphics-s-d.lib(RenderTexture.obj)' or at ''; linking object as if no debug info
@@ -67,4 +61,4 @@ sfml-system-s-d.lib(ClockImpl.obj) : warning LNK4099: PDB '' was not found with 
 sfml-system-s-d.lib(MutexImpl.obj) : warning LNK4099: PDB '' was not found with 'sfml-system-s-d.lib(MutexImpl.obj)' or at ''; linking object as if no debug info
 sfml-system-s-d.lib(SleepImpl.obj) : warning LNK4099: PDB '' was not found with 'sfml-system-s-d.lib(SleepImpl.obj)' or at ''; linking object as if no debug info
 sfml-system-s-d.lib(ThreadLocalImpl.obj) : warning LNK4099: PDB '' was not found with 'sfml-system-s-d.lib(ThreadLocalImpl.obj)' or at ''; linking object as if no debug info
-  testh.vcxproj -> C:\Users\kovma\Desktop\Simple-SFML-ImGui-main\x64\Debug\testh.exe
+  testh.vcxproj -> C:\Users\kovma\Documents\GitHub\Simple-SFML-ImGui\x64\Debug\testh.exe

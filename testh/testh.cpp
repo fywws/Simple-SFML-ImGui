@@ -4,11 +4,11 @@
 
 #include "SFML/Graphics.hpp"
 #include <iostream>
-#include <string>
+
 
 int main()
 {
-    sf::RenderWindow window(sf::VideoMode(1280, 720), "Window Title", sf::Style::Default);
+    sf::RenderWindow window(sf::VideoMode(1920,1080), "Window Title", sf::Style::Fullscreen);
     ImGui::SFML::Init(window);
 
     float radius = 10;
@@ -16,17 +16,13 @@ int main()
     ImColor color(255, 255, 255);
     ImColor bgColor(148, 100, 130);
 
-
     sf::CircleShape* shape = new sf::CircleShape(radius, 40);
     shape->setPosition(960, 540);
     shape->setFillColor(sf::Color(color));
+    
 
-    bool isDragging = false;  // Flag to track if the shape is being dragged
-    sf::Vector2f offset;      // Offset to move the shape based on cursor position
-
-
-
-
+    bool isDragging = false;
+    sf::Vector2f offset;
 
     sf::Clock deltaClock;
     while (window.isOpen())
@@ -52,14 +48,15 @@ int main()
             {
                 isDragging = false;
             }
-            if (sf::Keyboard::isKeyPressed(sf::Keyboard::Delete))
+            if (sf::Keyboard::isKeyPressed(sf::Keyboard::Escape))
             {
+                exit(0);
             }
         }
 
         ImGui::SFML::Update(window, deltaClock.restart());
 
-        // Move the shape if it's being dragged
+
         if (isDragging)
         {
             sf::Vector2f mousePos = static_cast<sf::Vector2f>(sf::Mouse::getPosition(window));
@@ -70,12 +67,10 @@ int main()
         ImGui::Begin("Shape edit");
         ImGui::SliderFloat("Radius", &radius, 1.f, 300.f);
         ImGui::ColorEdit4("Color", (float*)&color);
-        // Color picker for the shape
         ImGui::End();
 
         ImGui::Begin("Render");
         ImGui::ColorEdit4("Color", (float*)&bgColor);
-
         ImGui::End();
 
         shape->setRadius(radius);

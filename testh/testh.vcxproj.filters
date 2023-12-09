@@ -66,4 +66,7 @@
   <ItemGroup>
     <Font Include="arial.ttf" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="OutputShader.frag" />
+  </ItemGroup>
 </Project>
